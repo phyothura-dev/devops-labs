@@ -6,6 +6,7 @@ A collection of DevOps experiments using different tech stacks.
 
 - **Flask**: Dockerized Python app with MySQL and GitHub Actions (CI).
 - **Laravel**: PHP application.
+- **React**: React application.
 - **Odoo**: ERP application.
 
 ## 🛠️ Usage
