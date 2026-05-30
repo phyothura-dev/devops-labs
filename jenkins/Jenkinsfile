@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                echo 'Checking out '
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                echo 'Building...'
+                sh 'echo "Building the project..."'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deploying...'
+            }
+        }
+
+         
+    }
+
+    post{
+        success {
+            echo 'Success! This will run only if the build succeeds'
+        }
+        failure {
+            echo 'Failure! This will run only if the build fails'
+        }
+    }
+
+}
