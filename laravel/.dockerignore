@@ -1,0 +1,26 @@
+# environment 
+.env
+.env.*
+
+#dependecies
+vendor/
+node_modules/
+
+
+# cache
+boostral/cache/*php
+
+# Logs
+storage/logs/*
+*.log
+
+#git
+.git
+.gitignore
+
+# docs
+README.md
+*.md
+
+.DS_Store
+Thumbs.db
